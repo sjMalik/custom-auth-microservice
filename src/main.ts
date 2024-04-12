@@ -19,6 +19,6 @@ async function bootstrap() {
   SwaggerModule.setup('api', app, document);
 
   await app.listen(3100);
-  logger.log(`Server started @http://locahost:3100`)
+  logger.log(`Server started @http://locahost:3100`);
 }
 bootstrap();
